@@ -1,0 +1,11 @@
+surname,forenames,preferred name,reference,tutor group,target grade,gcse maths,gcse english,provisional,subject 1,subject 2,subject 3,subject 4,term 1 review,term 2 review,term 3 review
+Rimmer,Arnold,Ace,STU001,TU1,D,3,3,1,English Literature,Geography,History,,A,A,R
+Lister,David,Dave,STU002,TU1,B,6,5,0,Biology,Chemistry,Music,,G,G,A
+KochanskiKristine,,Krissy,STU003,TU2,A*,9,9,1,Physics,Mathematics,Computer Science,Theology,G,G,G
+Lovett,Holly,Queeg,STU004,TU3,B,8,6,0,Computer Science,Mathematics,History,,G,A,R
+Llewellyn,Kryten,,STU005,TU2,C,7,8,,English Literature,Chemistry,Music,,A,A,G
+Dibley,Cat,,STU006,TU3,E,3,4,1,English Language,Theology,Biology,,G,G,G
+Hollister,Francis,Frank,STU007,TU1,B,6,5,0,Physics,History,Geography,,G,G,G
+McIntyre,George,,STU008,TU3,A,7,8,0,Theology,Geography,English Language,,A,R,G
+Todhunter,Francis,Frank,STU009,TU2,A,8,7,0,English Literature,History,Computer Science,,G,G,G
+McGruder,Yvonne,,ST0010,TU3,B,6,5,0,Chemistry,Biology,History,,G,A,G
