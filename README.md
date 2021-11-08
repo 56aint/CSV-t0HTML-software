@@ -1,15 +1,19 @@
 ### This project has been achieved on Ubuntu 20.04.2 LTS OS
 
-## STEPS
 
-1. Install papaparse -- papaparse is a powerful CSV parser for JavaScript. Used to import and export CSV data
+## To Interact with a copy of this software
 ```bash
-      install: npm install papaparse
+*git clone git@github.com:56aint/CSV-to-HTML-software.git 'your-project-folder-name'
+
+cd your-project-folder-name
+
+In the project directory, run: 
+ npm install
+
+Papaparse should install with *npm install, if not install manually with: 
+ npm install papaparse
+
+*For development mode, Right click on index.html file and click on open with Live Server (runs on ```http://127.0.0.1:5500``` by default) to view it in the browser.*
 ```
-2. To run: Right click on index.html file and click on open with Live Server(Live Server can be installed from Extensions)
-      Live Server runs on ```http://127.0.0.1:5500``` by default
 
-3. Simply choose your .csv file, and will be displayed on the webpage.
-
-
-** Note: Please run npm install reinstate node_modules and packet-lock.json
+Simply choose your .csv file, and will be displayed on the webpage.
