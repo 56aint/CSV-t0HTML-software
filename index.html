@@ -7,6 +7,8 @@
   <title>CSV WEB-VIEW</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js" integrity="sha512-qzgd5cYSZcosqpzpn7zF2ZId8f/8CHmFKZ8j7mU4OUXTNRd5g+ZHBPsgKEwoqxCtdQvExE5LprwwPAgoicguNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <style>
     table {
       border-collapse: collapse;
@@ -37,10 +39,18 @@
 
 <body>
   <input type="file" id="csvFileInput" style="padding-bottom: 15px">
-  <table id="csvRoot"></table>
+  <table id="csvRoot" class="tablesorter"></table>
 
   <script src="./lib/papaparse.min.js"></script>
   <script type="module" src="./js/main.js"></script>
+ <!--  <script type="module" src="./js/tablesorter.js"></script> -->
+  <!-- <script type="text/javascript" src="./js/tablesorter.js>
+    </script> -->
+  <!-- <script>
+    $(document).ready(function() {
+  $("#csvRoot").tablesorter();
+   });
+  </script> -->
 </body>
 
 </html>
